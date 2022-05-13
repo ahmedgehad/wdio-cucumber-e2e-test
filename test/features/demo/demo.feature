@@ -1,7 +1,7 @@
 Feature: Demo Feature
 
     # Feature Description
-    @demo
+    # @demo
     Scenario Outline: Run first demo feature
         Given Google page is opened
         When Search with <SearchItem>
@@ -9,5 +9,5 @@ Feature: Demo Feature
         Then URL should match <ExpectedURL>
 
         Examples:
-            | TestID  | SearchItem | ExpectedURL |
-            | Demo_TC_001 | WDIO    | https://webdriver.io/  |
+            | TestID      | SearchItem | ExpectedURL           |
+            | Demo_TC_001 | WDIO       | https://webdriver.io/ |
